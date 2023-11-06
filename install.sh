@@ -4,7 +4,7 @@
 sudo apt update
 
 # Install required packages
-sudo apt install -y curl sqlite3
+sudo apt install -y curl sqlite3 jq
 
 # Determine the architecture
 arch=$(dpkg --print-architecture)
